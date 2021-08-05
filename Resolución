@@ -1,0 +1,6 @@
+function main() {
+    var hour = parseInt(readLine(), 10);
+    //tu código va aquí
+    var ampm = (hour < 13) ? "am": "pm";
+    console.log(ampm);
+}
